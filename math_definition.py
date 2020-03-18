@@ -13,7 +13,7 @@ def is_prime(number):
         return True
     else:
         factor = 2
-        while factor < number ** 0.5:
+        while factor <= number ** 0.5:
             if is_divisible(factor, number):
                 return False
                 break
