@@ -8,7 +8,7 @@ steps:
     type: git-clone
     stage: checkout
     repo: 'XueGongZi/project_euler'
-    revision: 'master'
+    revision: 'problem6'
     git: github
   build_my_app:
     title: Building Python Docker Image
