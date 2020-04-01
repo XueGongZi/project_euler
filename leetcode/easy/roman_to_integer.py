@@ -18,7 +18,3 @@ class Solution:
                 else:
                     converted -= convert_to_int[i]
         return converted
-
-print(Solution().romanToInt("LVIII"))
-print(Solution().romanToInt("IX"))
-print(Solution().romanToInt("MCMXCIV"))
