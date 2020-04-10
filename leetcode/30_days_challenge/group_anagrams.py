@@ -1,7 +1,5 @@
-import collections
-
 class Solution:
-    def groupAnagrams(self, strs: [str]) -> [[str]]:
+    def group_anagrams(self, strs: [str]) -> [[str]]:
         result = {}
         for i in strs:
             x = "".join(sorted(i))
