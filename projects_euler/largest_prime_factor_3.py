@@ -22,4 +22,3 @@ class Solution:
         return result
 
 num = 600851475143
-print(Solution().largest_prime_number(num))
